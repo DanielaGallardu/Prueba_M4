@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.navbar-custom {
+  background-color: #680a0a;
+}
+
+.navbar-custom .nav-link {
+  color: #ffffff;
+}
+
+.navbar-custom .navbar-brand {
+  font-family: "Anton", sans-serif;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.navbar-brand .img-nav {
+  margin: 10px;
+}
+
+.heroId {
+  font-weight: bold;
+  margin: 20px;
+}
+h1 {
+  font-weight: bolder;
+}
+.form-group {
+  text-align: center;
+}
+
+#heroForm .btn-primary {
+  margin: 20px;
+  background-color: #680a0a;
+  border-color: #680a0a;
+}
+
+.btn {
+  display: inline-block;
+  margin: 20px auto;
+}
+h4 {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 2rem;
+  text-shadow: 2px 2px 10px rgba(104, 10, 10, 0.7);
+
+
+}
+
+.hero_img {
+  display: block;
+  margin: 0 auto 20px;
+  width: 200px;
+  height: auto;
+}
+
+
+footer {
+  background-color: #680a0a;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding: 0.5rem 0;
+  }
+}
+
+
+.img-fluid {
+  height: 100%;
+  object-fit: cover;
+}
